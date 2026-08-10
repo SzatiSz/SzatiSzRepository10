@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie - Temat 9</title>
+    <script src="/Users/NikolaSadownik/Desktop/VSC/JAVASCRIPT/Calculator.js"></script>
+</head>
+<body>
+    Podaj liczbę a: <input required type="text" id="a" placeholder="12, 34, 56, 3, 100,..."><br> <!--Użyte input text, gdyż chce użyc parseFloat lub parseInt i instrukcji warunkowych if-->
+    Podaj liczbę b: <input required type="text" id="b" placeholder="16, 43, 27, 0, 900,..."><br>
+    Wybierz działanie: <input type="number" id="działanie" min="1" max="4"> <!--Użyte input number, gdyż chce użyc instrukcji switch-->
+    <button onclick="oblicz()">Oblicz</button>
+    <br>
+    Legenda:
+    <br>
+    1 - Dodawanie
+    <br>
+    2 - Odejmowanie
+    <br>
+    3 - Mnożenie
+    <br>
+    4 - Dzielenie
+</body>
+</html>
